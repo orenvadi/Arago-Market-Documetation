@@ -5,6 +5,7 @@
 % See "book", "report", "letter" for other types of document.
 
 \documentclass[12pt]{article} % use larger type; default would be 10pt
+\usepackage[fontsize=12pt]{fontsize}
 \renewcommand{\baselinestretch}{1.5} % linespacing=1.5
 \usepackage[T2A]{fontenc} % кодировка
 \usepackage{fontspec} % for changing fonts 
@@ -21,6 +22,7 @@
 \usepackage{geometry} % to change the page dimensions
 \geometry{a4paper} % or letterpaper (US) or a5paper or....
 \geometry{left=30mm,right=20mm,top=15mm, bottom=15mm} % for example, change the margins to 2 inches all round
+% \graphicspath{{./images/}}
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
 
@@ -37,6 +39,8 @@
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 \usepackage{cmap} % search in pdf
+\usepackage{longtable} % for long tables 
+\usepackage{lscape}
 \usepackage{hyperref} % for hyperlinks
 \usepackage{listings} % for code listings
 % These packages are all incorporated in the memoir class to one degree or another...
